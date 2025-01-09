@@ -84,18 +84,6 @@ extraPaths = ["tests/"]
 [tool.ruff]
 target-version = 'py38'
 
-exclude = [
-    "migrations",
-    "__pycache__",
-    "manage.py",
-    "settings.py",
-    "llmake/ninja_syntax.py",
-    "env",
-    ".env",
-    "venv",
-    ".venv",
-]
-
 line-length = 120
 
 [tool.ruff.format]
