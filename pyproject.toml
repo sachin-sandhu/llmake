@@ -16,7 +16,7 @@ license = "Apache-2.0"
 description = ""
 authors = ["smy20011"]
 readme = "README.md"
-packages = [{include = "llmake"}]
+
 include = ["llmake/*.so", "llmake/*.pyd"]  # Compiled extensions
 
 [tool.poetry.build]
