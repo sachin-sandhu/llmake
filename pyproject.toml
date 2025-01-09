@@ -17,8 +17,6 @@ description = ""
 authors = ["smy20011"]
 readme = "README.md"
 
-include = ["llmake/*.so", "llmake/*.pyd"]  # Compiled extensions
-
 [tool.poetry.build]
 generate-setup-file = false
 
